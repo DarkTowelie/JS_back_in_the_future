@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="jsp/index.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="gameField">
+            <div class="info">
+                <span class="name"></span>
+                <span class="speed"></span>
+                <div class="hpBar">
+                    <img class="health" src="img/health.png" alt="Здоровье1">
+                    <img class="health" src="img/health.png" alt="Здоровье2">
+                    <img class="health" src="img/health.png" alt="Здоровье3">
+                </div>
+            </div>
+            <canvas width="650px" height="500px"></canvas>
+        </div>
+        <div class="startMenu">
+            <span>Введите ваше имя:</span>
+            <input type="text" name="playerName" id="playerName" maxlength="3">
+            <button class="startButton">Начать игру!</button>
+        </div>
+        <div class="gameOver"></div>
+    </div>
+</body>
+</html>

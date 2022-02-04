@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+.startMenu{
+    width: 650px;
+    height: 500px;
+    border: solid 1px black;
+    margin: auto;
+    position: relative;
+    bottom: 500px;
+    left: 75px
+}
+
+.gameOver{
+    width: 650px;
+    height: 400px;
+    border: solid 1px black;
+    margin: auto;
+    position: relative;
+    bottom: 450px;
+    background-color: burlywood;
+    font-size: 60px;
+    text-align: center;
+    line-height: 400px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.startMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/startMenu.png);
+    background-size: cover;
+    background-position: center center;
+    color: rgb(255, 0, 0);
+    font-size: 45px;
+}
+
+#playerName{
+    width: 200px;
+    height: 30px;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.startButton{
+    background-color: rgb(45, 177, 45);
+    font-size: 20px;
+    width: 150px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.info{
+    width: 150px;
+    height: 500px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(53, 66, 78);
+    padding-top: 20px;
+}
+
+input[type=text]{
+    text-align: center;
+}
+
+.info .name{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.info .speed{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.gameField{
+    display: flex;
+}
+
+.info .hpBar{
+    width: 60%;
+}
+
+.info .hpBar .health{
+    width: 100%;
+}
